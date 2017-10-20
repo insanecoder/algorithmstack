@@ -55,5 +55,18 @@ class BlogController extends Controller
         return $this->blogService->searchTags($val);
    }
 
+   public function getBlogDescription($slug,$blogID){
+        $blog= $this->blogService->getBlog($blogID);
+        if(!$blog){
+            abort(404);
+        }
+        if($slug!=$blog->slug){
+            return redirect(route('blogDescription',['slug'=>$blog->slug,'blogID'=>$blogID]),301);
+        }
+        $tagList= $blog->tagList;
+        $blog->tagList=$tagList;
+        return view('blog.blogDescription',['blog'=>$blog, 'creator'=> $blog->users, 'tagList'=>$tagList]);
+    }
+
 
 }

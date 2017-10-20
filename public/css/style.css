@@ -5,9 +5,22 @@
 .ml2{
 	margin-left: 2%;
 }
+.ml1{
+	margin-left: 1%;
+}
+
 .mt2{
 	margin-top: 2%;
 }
 .mb2{
 	margin-bottom: 2%;
+}
+
+.mousePointer{
+	cursor: pointer;
+}
+
+.customBadge{
+    background-color: #652D90;
+    font-size: 90%;
 }

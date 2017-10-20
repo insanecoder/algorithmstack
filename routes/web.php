@@ -20,3 +20,5 @@ Route::get('/blog/admin/{userName}/{password}',['uses'=>'BlogController@getAdmin
 Route::post('/blog/saveBlog',['uses'=>'BlogController@saveBlog']);
 
 Route::get('/getTags',['uses'=>'BlogController@getTagListFromQuery','as'=>'getTags']);
+
+Route::get('/blog/{slug}/{blogID}',['uses'=>'BlogController@getBlogDescription','as'=>'blogDescription']);
