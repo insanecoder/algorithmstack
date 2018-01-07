@@ -21,4 +21,4 @@ Route::post('/blog/saveBlog',['uses'=>'BlogController@saveBlog']);
 
 Route::get('/getTags',['uses'=>'BlogController@getTagListFromQuery','as'=>'getTags']);
 
-Route::get('/blog/{slug}/{blogID}',['uses'=>'BlogController@getBlogDescription','as'=>'blogDescription']);
+Route::get('/{slug}/{blogID}',['uses'=>'BlogController@getBlogDescription','as'=>'blogDescription']);

@@ -11,21 +11,24 @@ class Blog extends Model
 
     protected $table = 'blogs';
 
-    function tags(){
+    function tags()
+    {
     	return $this->belongsToMany('App\Tags','tagMapping','blogID','tagID');
     }
 
-    function users(){
+    function users()
+    {
         return $this->belongsTo('App\Users','creatorID','userID');
     }
 
-    function createFromArray($arr){
+    function createFromArray($arr)
+    {
     	foreach ($arr as $key => $value) {
-    		if($value){
+    		if($value) {
     			$this->$key=$value;
     		}
     	}
+
     	return $this;
     }
-
 }

@@ -4,11 +4,15 @@
     <meta charset="utf-8">
     <title>Basic AlgorithmStack Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-     <link rel="stylesheet" href="/css/style.css">
-    <!-- Optional Bootstrap theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{  asset('css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/materialdesignicons.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/jquery.mCustomScrollbar.min.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/prettyPhoto.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/unslider.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/template.css') }}" />
+
+
 </head>
 <body>
 
@@ -22,7 +26,7 @@
 					<h1>{{$blog->title}}</h1>
 					{{$blog->blogContent}}
 				</div>
-			</div>	
+			</div>
 		</div>
 	</div>
 </div>
