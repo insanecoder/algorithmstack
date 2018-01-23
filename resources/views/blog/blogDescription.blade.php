@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/prettyPhoto.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/unslider.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/template.css') }}" />
-
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
 
 </head>
 <body>

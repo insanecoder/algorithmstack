@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css" />
     <link rel="stylesheet" type="text/css" href="css/unslider.css" />
     <link rel="stylesheet" type="text/css" href="css/template.css" />
-
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <!-- Optional Bootstrap theme -->
 

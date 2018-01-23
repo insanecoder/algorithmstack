@@ -1,0 +1,5 @@
+@media(max-width: 991px){
+    .row .col-md-2 .panel-group > .panel-default{
+        display: inline-block;
+    }
+}
