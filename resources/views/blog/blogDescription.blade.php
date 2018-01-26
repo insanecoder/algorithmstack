@@ -24,7 +24,7 @@
 			<div class="panel panel-default">
 				<div class="panel-body">
 					<h1>{{$blog->title}}</h1>
-					{{$blog->blogContent}}
+					{!! $blog->blogContent !!}
 				</div>
 			</div>
 		</div>
