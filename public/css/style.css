@@ -4,9 +4,6 @@
     }
 }
 
-/**************************************************************
-            paste this in style.css
-**************************************************************/
 #top-menu{
   margin: 5px 5px;
 }
@@ -57,6 +54,46 @@
     color: rgba(0,0,200,.8);
 }
 
+
+.panel .content p{
+    /*width: 80%;*/
+    line-height: 25px;
+
+}
+.panel .content .read-more{
+    font-size: 20px;
+}
+.upvote{
+    height: 30px;
+    width: 30px;
+    color: grey;
+    padding-right: 20px;
+}
+.upvote span{
+        font-size: 20px;
+}
+.icon{
+    padding-left: 5px;
+}
+.col-md-1 .fa-3x{
+    font-size: 30px;
+}
+.fa:hover {
+    color: red;
+}
+.fa:hover ~ .fa  span{
+    color: black;
+}
+.fa-heart-o:hover{
+    color:red;
+}
+.panel .tag{
+    padding-left: 20px;
+}
+.tag .badge{
+    margin:5px 5px 12px 7px;
+    padding: 5px 13px;
+}
 
 
 

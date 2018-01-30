@@ -23,36 +23,62 @@
 
 	<div class="row">
 		@include('leftBar')
+<div class="col-md-8">
+            <div class="panel panel-default">
+              <div class="mousePointer panel-body">
+                <h1><a href="../external.html?link=https://gatestack.in/">Greedy Algo</a></h1><br>
+                <div class="content col-md-11">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    <span>
+                        <a class="read-more  " href="#">.....read more</a>
+                    </span>
+                    </p>
+                </div>
+                <div class="col-md-1 icon">
+                    <a href="#"><i class="fa fa-heart fa-3x upvote" aria-hidden="true"><span style="padding-left:3px"><small>45</small></span></i></a>
 
-		<div class="col-md-8">
-			<div class="panel panel-default">
-			  <div class="mousePointer panel-body">
-			  	<h1><a href="https://gatestack.in/">Greedy Algo</a></h1><br>
-			  	asgdjhadjhsabdfjasdf
-			  	gdfgdsfgsdfgsdfg
-			  	dfgdsfgsdfgsdf
-			  	dfgsdfgdsfgsdfgsdgdf
-			  </div>
-			  <span class="ml1"></span>
-			  <span class="badge mousePointer customBadge ml1 mb2">Greedy</span>
-			  <span class="badge mousePointer customBadge ml1 mb2">Greedy</span>
+                </div>
+              </div>
+              <div class="tag">
+                <span class="ml"></span>
+              <span class="badge mousePointer customBadge ml1 mb2">Greedy</span>
+              <span class="badge mousePointer customBadge ml1 mb2">Greedy</span>
+              <span class="badge mousePointer customBadge ml1 mb2">Greedy</span>
+              </div>
 
-			  <span class="badge mousePointer customBadge ml1 mb2">Greedy</span>
-
-			</div>
+            </div>
 
 
-			<div class="panel panel-default">
-			  <div class="panel-body">
-			  	<h1>Greedy Algo</h1><br>
-			  	asgdjhadjhsabdfjasdf
-			  	gdfgdsfgsdfgsdfg
-			  	dfgdsfgsdfgsdf
-			  	dfgsdfgdsfgsdfgsdgdf
-			  </div>
-			</div>
+            <div class="panel panel-default">
+              <div class="mousePointer panel-body">
+                <h1><a href="../external.html?link=https://gatestack.in/">Greedy Algo</a></h1><br>
+                <div class="content col-md-11">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    <span>
+                        <a class="read-more  " href="#">.....read more</a>
+                    </span>
+                    </p>
+                </div>
+                <div class="col-md-1 icon">
+                    <a href="#"><i class="fa fa-heart fa-3x upvote" aria-hidden="true"><span style="padding-left:3px"><small>45</small></span></i></a>
 
-		</div>
+                </div>
+              </div>
+              <div class="tag">
+                <span class="ml"></span>
+              <span class="badge mousePointer customBadge ml1 mb2">Greedy</span>
+              <span class="badge mousePointer customBadge ml1 mb2">Greedy</span>
+              <span class="badge mousePointer customBadge ml1 mb2">Greedy</span>
+              </div>
+
+            </div>
+
+        </div>
+
 
 		@include('rightBar')
 
