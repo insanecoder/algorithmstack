@@ -8,13 +8,13 @@
   margin: 5px 5px;
 }
 .group{
-  background-color:rgba(0,0,200,.8);
+  background-color:#35c6d3;
   border: 3px solid transparent;
   border-radius: 2px;
   margin-bottom: 5px;
 }
 .dropbtn {
-    background-color:rgba(0,0,200,.8);
+    background-color:#35c6d3;
     color: white;
     padding:8px 18px;
     font-size: 16px;
@@ -50,7 +50,7 @@
 }
 
 .dropdown:hover .dropbtn {
-    background-color: rgba(255,255,255,1);
+    background-color: #35c6d3;
     color: rgba(0,0,200,.8);
 }
 
