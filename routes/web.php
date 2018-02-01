@@ -22,3 +22,13 @@ Route::post('/blog/saveBlog',['uses'=>'BlogController@saveBlog']);
 Route::get('/getTags',['uses'=>'BlogController@getTagListFromQuery','as'=>'getTags']);
 
 Route::get('/{slug}/{blogID}',['uses'=>'BlogController@getBlogDescription','as'=>'blogDescription']);
+
+Route::get('test', function () {
+    event(new App\Events\StatusLiked('Someone'));
+    return "Event has been sent!";
+});
+
+
+Route::get('/trap', function () {
+    return view('welcome');
+});
