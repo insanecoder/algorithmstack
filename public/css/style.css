@@ -89,7 +89,8 @@
     padding-left: 5px;
 }
 .col-md-1 .fa-3x{
-    font-size: 30px;
+    font-size: 25px;
+    margin-top: -25px;
 }
 .fa:hover {
     color: red;
@@ -108,6 +109,9 @@
     padding: 5px 13px;
 }
 
+/**********************************************************************************************************
+                    footer
+***********************************************************************************************************/
 #footer{
   background:#35c6d3;
   padding-top: 0px;
@@ -125,10 +129,16 @@
   text-decoration: none;
   list-style: none;
   display: inline-block;
-  padding: 5px 30px;
-  font-size: 17px;
+  padding: 5px 20px;
+  font-size: 18px;
+  margin-left: 20px;
   font-weight: 500;
   color: #fff;
+}
+.footer-content li a:hover
+{
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .butn{
@@ -154,4 +164,69 @@
   /*color: #35c6d3;*/
   color:blue;
   opacity: .5;
+}
+/*******************************************************************************************88
+                      right-content
+*********************************************************************************************/
+.trending-content {
+  padding-right: 15px;
+}
+.rightwrapper{
+  margin-top: 10px;
+  width: 100%;
+  border:1px solid #35c6d3;
+  border-top: 0px;
+}
+.trending-content .head{
+  background: #35c6d3;
+  text-align: center;
+}
+.trending-content .head h5{
+  color: #fff;
+  font-size: 15px;
+  padding:7px;
+
+}
+.trending-content .body{
+  padding-top: 5px;
+  border-bottom: 1px solid #35c6d3;
+}
+.trending-content .body a{
+  padding-left: 8px;
+  color: #35c6d3;
+  text-decoration: none;
+}
+.trending-content .body a:hover{
+  color:gold;
+}
+.trending-content .body .answr{
+  padding-left: 8px;
+  color: green;
+  text-decoration: none;
+}
+.top-questions .head{
+  background: #35c6d3;
+  text-align: center;
+}
+.top-questions .head h5{
+  color: #fff;
+  font-size: 15px;
+  padding:6px;
+}
+.top-questions .body{
+  padding-top: 5px;
+  border-bottom: 1px solid #35c6d3;
+}
+.top-questions .body a{
+  padding-left: 8px;
+  color: #35c6d3;
+  text-decoration: none;
+}
+.top-questions .body a:hover{
+  color: gold;
+}
+.top-questions .body .answr{
+  padding-left: 8px;
+  color:black;
+  text-decoration: none;
 }

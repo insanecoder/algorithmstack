@@ -1,6 +1,7 @@
-    <footer id="footer">
+<footer id="footer">
         <div class="footer-content">
             <ul>
+            <li><a class="smooth-scroll" href="#banner">&copy;Algorithm stack</a></li>
                 <li><a class="smooth-scroll" href="#banner">contact us</a></li>
                 <li><a class="smooth-scroll" href="#products">about us</a></li>
                 <li><a class="smooth-scroll" href="#about">careers</a></li>
